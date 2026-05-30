@@ -21,6 +21,16 @@
 @font-face {
     font-family: "Montserrat";
     font-style: normal;
+    font-weight: 600;
+    src: local("Montserrat"),
+        url("../fonts/Montserrat/Montserrat-SemiBold.woff2") format("woff2"),
+        url("../fonts/Montserrat/Montserrat-SemiBold.woff") format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    font-style: normal;
     font-weight: 100;
     src: local("Montserrat"),
         url("../fonts/Montserrat/Montserrat-Thin.woff2") format("woff2"),
