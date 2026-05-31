@@ -4,7 +4,7 @@ body {
     font-size: 16px;
 }
 
-.header, .main {
+.header, .main, .footer {
     padding: 0px 6.25%;
 }
 
@@ -253,6 +253,185 @@ button {
     font-weight: bold;
     color: white;
 }
+
+.footer {
+    min-height: 300px;
+    background-color: #2963A3;
+    padding-top: 32px;
+    margin-top: 64px;
+}
+
+.footer__menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer__nav, .footer__form-container {
+    display: flex;
+    justify-content: flex-start;
+    width: 33%;
+}
+
+.footer__nav {
+    min-width: 250px;
+}
+
+.footer__form-container {
+    flex-direction: column;
+    max-width: 500px;
+    min-width: 250px;
+    margin-right: 15%;
+}
+
+.footer__nav-list {
+    display: flex;
+    flex-direction: column;
+    min-height: 225px;
+    width: 50%;
+    list-style: none;
+    padding-inline-start: 0px;
+    margin: 0px;
+}
+
+.footer__nav-option {
+    display: flex;
+    align-items: center;
+    margin: 12px 0px;
+}
+
+.footer__nav-option > a {
+    font-family: Montserrat, serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.footer__nav-option > a:link, .footer__nav-option > a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.footer__nav-option > a:hover, .footer__nav-option > a:active {
+    color: #b6d1ec;
+    text-decoration: none;
+}
+
+.footer__form-description {
+    font-family: Montserrat, serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    margin: 12px 0px;
+}
+
+.footer__form-agreement {
+    font-family: Montserrat, serif;
+    font-weight: 100;
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+    margin: 12px 0px;
+}
+
+.footer__form {
+    display: flex;
+    align-items: center;
+}
+
+.footer__form input {
+    width: 75%;
+    height: 46px;
+    background-color: white;
+    border: 1px solid rgb(247, 247, 247);
+    border-radius: 5px;
+    padding: 0px 0px;
+    font-family: Montserrat, serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    padding-inline-start: 14px;
+}
+
+.footer__form input::placeholder {
+    font-family: Montserrat, serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #a0a0a0;
+}
+
+.footer__form input:focus {
+    outline: none;
+}
+
+.footer__form button {
+    height: 48px;
+    width: 72px;
+    background-color: #03B2A5;
+    border: 1px solid #03B2A5;
+    border-radius: 5px;
+    padding: 0px 0px;
+}
+
+.footer__social-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: fit-content;
+}
+
+.footer__social-links > img {
+    width: 221px;
+    height: 50px;
+    margin: 12px 0px;
+}
+
+.footer__social-links-list {
+    display: flex;
+    width: 221px;
+    justify-content: space-between;
+    list-style: none;
+    padding-inline-start: 0px;
+    margin: 12px 0px;
+}
+
+.footer__legal-info {
+    display: flex;
+    border-top: 1px solid rgba(196, 196, 196, 0.301);
+    margin-top: 32px;
+}
+
+.footer__legal-info-list {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+    padding-inline-start: 0px;
+    padding-top: 24px;
+    margin: 0px 0px;
+}
+
+.footer__legal-info-list > li {
+    margin: 0px 0px;
+    margin-bottom: 24px;
+    padding-right: 109px;
+}
+
+.footer__legal-info-list p {
+    margin: 0px 0px;
+    font-family: Montserrat, serif;
+    font-weight: 100;
+    font-size: 16px;
+    color: white;
+}
+
+.footer__legal-info-list a {
+    margin: 0px 0px;
+    font-family: Montserrat, serif;
+    font-weight: 100;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
 
 @media (max-width: 450px) {
 
